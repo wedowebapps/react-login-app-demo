@@ -1,0 +1,25 @@
+.login {
+  &__content {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__bgimage {
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+  }
+}
+.login-form {
+  margin-top: 40px;
+  max-width: 300px;
+  min-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
